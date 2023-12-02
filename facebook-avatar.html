@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Facebook Add Friend</title>
+    <style>
+      p{
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .box{
+        width: 200px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        vertical-align: top;
+        margin-right: 15px;
+      }
+      .avatar{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 12px;
+      }
+      .name{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 8px;
+        margin-bottom: 5px;
+      }
+      .add{
+        margin-left: 7px;
+        margin-bottom: 9px;
+        background-color: rgb(30, 114, 249);
+        color: white;
+        border: none;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .add:hover{
+        background-color: rgb(24, 90, 197);
+      }
+      .add:active{
+        opacity: 0.8;
+      }
+      .mutual{
+        display: grid;
+        grid-template-columns: 35px 1fr;
+        align-items: center;
+        margin-left: 3px;
+        margin-bottom: 10px;
+      }
+      .mutual-image{
+        width: 25px;
+        margin-left: 7px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        vertical-align: center;
+      }
+      .mutual-avatar{
+        height: 28px;
+        width: 28px;
+        object-fit: cover;
+        border-radius: 14px;
+        vertical-align: middle;
+        object-position: right;
+      }
+      .mutual-friend{
+        margin-top: 9px;
+        margin-bottom: 10px;
+        padding-left: 8px;
+        font-size: 15px;
+        color: rgb(96, 96, 96);
+        vertical-align: top;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      column-gap: 20px;
+      ">
+      <div class="box">
+        <div>
+          <img class="avatar" src="dog.avif">
+        </div>
+        <div>
+          <p class="name">Oliver</p>
+          <div class="mutual">
+            <div class="mutual-image">
+              <img class="mutual-avatar" src="mutual.webp">
+            </div>
+            <p class="mutual-friend">2 mutual friends</p>
+          </div> 
+          <button class="add">Add Friend</button>
+        </div>
+      </div>
+      <div class="box">
+        <div>
+          <img class="avatar" src="cat.avif">
+        </div>
+        <div>
+          <p class="name">Mimi</p>
+          <div class="mutual">
+            <div class="mutual-image">
+              <img class="mutual-avatar" src="mutual.webp">
+            </div>
+            <p class="mutual-friend">3 mutual friends</p>
+          </div> 
+          <button class="add">Add Friend</button>
+        </div>
+      </div>
+      <div class="box">
+        <div>
+          <img class="avatar" src="puppy.jpg">
+        </div>
+        <div>
+          <p class="name">Rex</p>
+          <div class="mutual">
+            <div class="mutual-image">
+              <img class="mutual-avatar" src="mutual.webp">
+            </div>
+            <p class="mutual-friend">4 mutual friends</p>
+          </div> 
+          <button class="add">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
