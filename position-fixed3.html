@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        height: 3000px;
+      }
+      .container{
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      .left-section{
+        display: flex;
+        align-items: center;
+      }
+      .avatar{
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 10px;
+      }
+      .name{
+        font-family: Arial;
+        font-weight: bold;
+      }
+      .friend-button{
+        background-color: rgb(42, 128, 239);
+        color: white;
+        border: none;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 6px;
+        margin-right: 3px;
+      }
+      .message-button{
+        border: none;
+        font-weight: bold;
+        padding-top: 10px;    
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-section">
+        <img class="avatar" src="cat.avif">
+        <div class="name">Oliver Cat</div>
+      </div>
+      <div class="right-section">
+        <button class="friend-button">Add Friend</button>
+        <button class="message-button">Message</button>
+      </div>
+    </div>
+  </body>
+</html>

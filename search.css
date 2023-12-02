@@ -1,0 +1,33 @@
+p{
+  font-family: Roboto;
+  font-size: 17px;
+  color: rgb(78, 77, 77);
+}
+.agree-button{
+  background-color: rgb(39, 94, 176);
+  color: white;
+  padding-left: 152px;
+  padding-right: 152px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  border-radius: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.agree-button:hover{
+  opacity: 0.9;
+}
+.agree-button:active{
+  opacity: 0.8;
+}
+.search{
+  border-radius: 5px;
+  width: 412px;
+  height: 33px;
+  border: solid;
+}
+.email{
+  margin-bottom: 8px;
+}

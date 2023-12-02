@@ -1,0 +1,64 @@
+div{
+  font-family: Arial;
+  font-size: 17px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 440px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.avatar-container{
+  margin-right: 12px;
+  margin-top: -5px;
+}
+.avatar{
+  height: 55px;
+  border-radius: 35px;
+}
+.info-container{
+  flex: 1;
+}
+.channer-name{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3px;
+}
+.channel-bold{
+  font-weight: bold;
+}
+.channel-at-sign{
+  color: rgb(116, 116, 116);
+  margin-left: 5px;
+  font-size: 14px;
+}
+.channel-gray{
+  color: rgb(116, 116, 116);
+}
+.subtitle{
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.youtube-box{
+  display: flex;
+  flex-direction: row;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(211, 211, 211);
+  border-radius: 20px;
+  height: 100px;
+  align-items: center;
+  overflow: hidden;
+}
+.gray-corner{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(211, 211, 211);
+}
+.info-corner{
+  line-height: 24px;
+  flex: 1;
+  margin-left: 10px;
+}
+

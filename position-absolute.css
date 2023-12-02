@@ -1,0 +1,36 @@
+body{
+  height: 3000px;
+}
+.close-button{
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gray-rectangle{
+  background-color: gray;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.timestamp{
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 8px;
+  right: 8px;
+  font-family: Arial;
+  padding: 6px;
+  font-size: 18px;
+}
